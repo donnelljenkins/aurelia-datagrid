@@ -10,6 +10,7 @@ export class GridColumnTemplate {
   @bindable filterable;
   @bindable property;
   @bindable sortable;
+  @bindable class;
 
   constructor(grid) {
     this.grid = grid;
